@@ -4,5 +4,6 @@ const anglesBtnHyp = document.querySelector("#angles-btn-hyp");
 
 anglesBtnHyp.addEventListener("click", function calculatHyp(){
     let hyp = Math.sqrt(Number(anglesHyp[0].value)**2 + Number(anglesHyp[1].value)**2)
-    outputHyp.innerText = "The Hypotenuse of this triangle will be " + hyp
+    hyp =Math.round(hyp)
+    outputHyp.innerText = "Hypotenuse is around " + hyp
 });

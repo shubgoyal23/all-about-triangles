@@ -1,0 +1,85 @@
+:root{
+    --bg: linear-gradient(90deg, hsla(31, 90%, 76%, 1) 0%, hsla(302, 82%, 76%, 1) 100%);
+
+}
+body{
+    text-align: center;
+    background-color: rgb(248, 247, 245);
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    background: var(--bg);
+    margin: auto;
+    border-radius: 8px;
+    padding: 1.5rem auto;
+    height: fit-content;
+    display: block;
+    
+}
+.navbar-links{
+    text-decoration: none;
+    padding: 1.5rem 0.2rem;
+    color: rgb(39, 4, 165);
+    font-size: 1rem;
+    text-transform: capitalize;
+    
+}
+.active{
+    color: blueviolet;
+    font-weight: bold;
+}
+h1{
+    color: #432371;
+    margin: 0.2rem auto 1rem auto;
+    padding: 1rem;
+}
+#Traingle-formation-checker{
+    display: block;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+     
+}
+.angles, .angles-hyp, #length, #base{
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+button{
+    display: block;
+    margin: auto;
+    width: 93%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    background-image: var(--bg);
+    cursor: pointer;
+}
+#output, #output-hyp, #output-area{
+    font-size: 2rem;
+    color: #432371;
+    padding: 0.5rem;
+    background: var(--bg);
+    border-radius: 100%;
+}
+form{
+    border: solid 2px blueviolet;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 6px;
+}
+.qna{
+    cursor: pointer;
+}
+input[type="radio" i]{
+    cursor: pointer;
+    color: #432371;
+}
+

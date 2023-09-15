@@ -11,17 +11,116 @@
 </head>
 
 <body>
-    <div id="Traingle-formation-checker">
-        <input type="number" class="angles" />
-        <input type="number" class="angles" />
-        <input type="number" class="angles" />
-        <button id="angles-btn">submit</button>
+    <nav class="navbar">
+        <dev><h1>Fun With Triangles</h1></dev>
+        <dev>
+            <a href="/index.html" class="navbar-links">Triangle Formation</a>
+            <a href="/area-of-triangle.html" class="navbar-links">Area of Triangle</a>
+            <a href="/triangle-qna.html" class="navbar-links active">Triangle Quiz</a>
+            <a href="/hypotenouse.html" class="navbar-links">Hypotenouse</a>
+            <br>
+            <hr>
+        </dev>
+    </nav>
+    <div id="Traingle-qna">
+        <h1>Test Your Triangle Knowledge</h1>
+            <form class="quiz-form">
+                <div class="queContainer">
+                    <h4>What type of triangle is formed by the given angles: 90°, 45°, 45°?</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que1" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que1" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que1" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que1" />Scalene Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>Determine the triangle type with angles: 100°, 30°, 50°.</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que2" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que2" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que2" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que2" />Scalene Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>Which type of triangle has angles: 45°, 45°, 90°?</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que3" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que3" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que3" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que3" />Scalene Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>Identify the triangle type with angles: 30°, 60°, 90°.</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que4" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que4" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que4" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que4" />Scalene Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>What type of triangle is formed by the given angles: 60°, 70°, 50°?</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que5" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que5" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que5" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que5" />Scalene Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>Determine the triangle type with angles: 40°, 60°, 80°.
+                    </h4>
+                    <label class="qna"><input type="radio" value="Obtuse" name="que6" required="required"/>Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que6" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que6" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que6" />Scalene Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>If a triangle has angles of 45°, 45°, and one unknown angle, what is the value of the unknown angle in an isosceles triangle?</h4>
+                    <label class="qna"><input type="radio" required="required" value="90°" name="que7" />90°</label>
+                    <label class="qna"><input type="radio" value="45°" name="que7" />45°</label>
+                    <label class="qna"><input type="radio" value="60°" name="que7" />60°</label>
+                    <label class="qna"><input type="radio" value="Scalene" name="que7" />cannot be determined</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>An isosceles triangle has angles measuring 70°, 70°, and ___________.</h4>
+                    <label class="qna"><input type="radio" required="required" value="40°" name="que8" />40°</label>
+                    <label class="qna"><input type="radio" value="90°" name="que8" />90°</label>
+                    <label class="qna"><input type="radio" value="60°" name="que8" />60°</label>
+                    <label class="qna"><input type="radio" value="45°" name="que8" />45°</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>What type of triangle has angles measuring 60°, 60°, 60°?</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que9" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que9" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que9" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="Equilateral" name="que9" />Equilateral Triangle</label>
+                    <hr>
+                </div>
+                <div class="queContainer">
+                    <h4>Determine the triangle type with angles: 30°, 30°, 30°.</h4>
+                    <label class="qna"><input type="radio" required="required" value="Obtuse" name="que10" />Obtuse Triangle</label>
+                    <label class="qna"><input type="radio" value="Right" name="que10" />Right Triangle</label>
+                    <label class="qna"><input type="radio" value="Acute" name="que10" />Acute Triangle</label>
+                    <label class="qna"><input type="radio" value="none" name="que10" />None of the above</label>
+                
+                </div>
+                <button id="qna-btn">submit</button>
+            </form>
+        
         <p id="output"></p>
-    </div>
-    
-
-
-    <script src="main.js" type="text/javascript"></script>
+        <nav class="navbar">
+            <dev>
+                <h3>@ Shubham Goyal</h3>
+                <a href="https://shubham-goyal.netlify.app/" class="navbar-links" target="_blank">Main Website</a>
+                <a href="https://www.instagram.com/shubham._.goyal/" class="navbar-links" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/shubgoyal/" class="navbar-links" target="_blank">Linkedin</a>
+                <a href="https://github.com/shubgoyal23/" class="navbar-links" target="_blank">Github</a>
+                <p>Copyright © 2023 Shubham-goyal</p>
+            </dev>
+        </nav>
+    <script src="triangle-qna.js" type="text/javascript"></script>
 </body>
 
 </html>
